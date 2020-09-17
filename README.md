@@ -3,7 +3,7 @@ About the app
 This app will take comma-delimited file as an argument and column number as an input and print a file with Ensembl gene name has been converted to HUGO gene name.
 
 Installation & Usage
---------
+-------
 1.  Use **git clone https://github.com/zmyyy3/trgn510_assignment4** to clone this application into your server.
 2.  "Homo_sapiens.GRCh37.75.gtf" is the reference file used to build a dictionary. You need to download this file by using **wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz**, and unzip this file by using **gunzip Homo_sapiens.GRCh37.75.gtf.gz**.
 3.  In the repository, "expres.anal.hugo.example.csv" is an example result of a unit test. If you want to take a unit test, you could download "expres.anal.csv" by using **wget https://github.com/davcraig75/unit/expres.anal.csv**, and run this application by using **python ensg2hugo.py -f2 expres.anal.csv > expres.anal.hugo.csv**. Then you will get a file named "expres.anal.hugo.csv", and you can check if the "expres.anal.hugo.csv" is the same as "expres.anal.hugo.example.csv".

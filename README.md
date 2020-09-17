@@ -1,6 +1,6 @@
 About the app
 ======
-This app will take comma-delimited file as an argument and column number as an input and print a file with Ensembl gene name has been converted to HUGO gene name.
+This app will take a comma-delimited file as an argument and column number as an input and print a file with Ensembl gene name has been converted to HUGO gene name.
 
 Installation & Usage
 -------

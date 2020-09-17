@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 About the app
 ======
 This app will take comma-delimited file as an argument and column number as an input and print a file with Ensembl gene name has been converted to HUGO gene name.
@@ -24,3 +25,6 @@ Dependencies
 Contact
 --------
 mzhang11@usc.edu
+=======
+# trgn510_assignment4
+>>>>>>> 6376aa0a2ee8b5c9c2a0128457535fe021f1c03b
